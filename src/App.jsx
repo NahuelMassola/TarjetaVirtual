@@ -135,7 +135,7 @@ function App() {
               <div className="col galeria-container">
                 <a href=""><img src={foto7} alt="" className="fotosGaleria"/></a>
               </div>
-              <div className="col galeria-container">
+              <div className="col galeria-container2">
                 <a href=""><img src={foto8} alt="" className="fotosGaleria"/></a>
               </div>
             </div>

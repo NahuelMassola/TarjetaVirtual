@@ -48,18 +48,19 @@
 .fotosGaleria{
     width: 300px;
     height: 300px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .sobremi{
     text-align: center;
     margin-bottom: 2rem;
+    padding-top: 1rem;
     font-size: 3rem;
 }
 
 .confirmacion{
     text-align: center;
-    margin-top: 2rem;
+    padding-top: 2rem;
     background-color: aqua;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -78,15 +79,23 @@
     justify-content: center;
     align-content: center;
     margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
+.galeria-container2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
 
 
 
 @media (max-width: 761px) {
     .fotosGaleria{
-        width: 200px;
-        height: 200px;
+        max-width: 160px;
+        max-height: 160px;
         border-radius: 10px;
         align-items: center;
     }
@@ -94,18 +103,24 @@
   
   @media (max-width: 573px) {
     .fotosGaleria{
-        width: 200px;
-        height: 200px;
-        border-radius: 10px;
+        max-width: 160px;
+        max-height: 160px;
+        border-radius: 15px;
         align-items: center;
+        
     }
   }
   
   @media (max-width: 410px){
     .fotosGaleria{
-        width: 200px;
-        height: 200px;
-        border-radius: 10px;
+        max-width: 160px;
+        max-height: 160px;
+        border-radius: 15px;
         align-items: center;
     }
+  }
+
+  .galeria{
+    background-color: rgb(109, 109, 202);
+   
   }
