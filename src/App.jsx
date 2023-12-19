@@ -108,34 +108,34 @@ function App() {
 
       <section className="galeria">
           <h4 className="sobremi">SOBRE MI</h4>
-            <div className="container galeria-container">
+            <div className="container ">
               <div className="row galleria">
-              <div className="col ">
+              <div className="col galeria-container ">
                 <a  href=""><img src={foto1} alt="" className="fotosGaleria"/></a>
               </div>
-              <div className="col " >
+              <div className="col galeria-container" >
                 <a href=""><img src={foto2} alt="" className="fotosGaleria"/></a>
               </div>
-              <div className="col ">
+              <div className="col galeria-container">
                 <a href=""><img src={foto3} alt="" className="fotosGaleria"/></a>
               </div>
-              <div className="col ">
+              <div className="col galeria-container">
                 <a href=""><img src={foto4} alt="" className="fotosGaleria"/></a>
               </div>
             </div>
           </div>
           <div className="container galeria-container mt-2">
               <div className="row galleria">
-              <div className="col">
+              <div className="col galeria-container">
                 <a href=""><img src={foto5} alt="" className="fotosGaleria"/></a>
               </div>
-              <div className="col" >
+              <div className="col galeria-container" >
                 <a href=""><img src={foto6} alt="" className="fotosGaleria"/></a>
               </div>
-              <div className="col">
+              <div className="col galeria-container">
                 <a href=""><img src={foto7} alt="" className="fotosGaleria"/></a>
               </div>
-              <div className="col">
+              <div className="col galeria-container">
                 <a href=""><img src={foto8} alt="" className="fotosGaleria"/></a>
               </div>
             </div>

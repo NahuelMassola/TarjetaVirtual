@@ -73,13 +73,20 @@
 }
 
 
+.galeria-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1rem;
+}
+
 
 
 
 @media (max-width: 761px) {
     .fotosGaleria{
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         border-radius: 10px;
         align-items: center;
     }
@@ -87,8 +94,8 @@
   
   @media (max-width: 573px) {
     .fotosGaleria{
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         border-radius: 10px;
         align-items: center;
     }
@@ -96,8 +103,8 @@
   
   @media (max-width: 410px){
     .fotosGaleria{
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         border-radius: 10px;
         align-items: center;
     }
