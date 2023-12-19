@@ -22,7 +22,7 @@ function App() {
   let interval = useRef();
 
   const startTimer = () => {
-      const countDownDate = new Date("ene 19 2023 2100:00 GMT-0300").getTime();
+      const countDownDate = new Date("Dec 24 2023 15:49:23 GMT-0300").getTime();
 
       interval = setInterval(() => {
       const now = new Date().getTime();
@@ -92,7 +92,7 @@ function App() {
       <div className="row text-center">
         <div className="col-sm-6">
           <img src={champan} alt="champan" className="iconoFiesta" />
-          <h4>Fiesta</h4>
+          <h2>Fiesta</h2>
           <p className="mt-3">Te esperamos el 19 de Enero a las 21hs</p> 
           <p>Lugar Salon Abril 
           </p>
