@@ -94,8 +94,8 @@
 
 @media (max-width: 761px) {
     .fotosGaleria{
-        max-width: 160px;
-        max-height: 160px;
+        max-width: 200px;
+        max-height: 200px;
         border-radius: 10px;
         align-items: center;
     }
@@ -103,8 +103,8 @@
   
   @media (max-width: 573px) {
     .fotosGaleria{
-        max-width: 160px;
-        max-height: 160px;
+        max-width: 200px;
+        max-height: 200px;
         border-radius: 15px;
         align-items: center;
         
@@ -113,8 +113,8 @@
   
   @media (max-width: 410px){
     .fotosGaleria{
-        max-width: 160px;
-        max-height: 160px;
+        max-width: 200px;
+        max-height: 200px;
         border-radius: 15px;
         align-items: center;
     }

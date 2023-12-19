@@ -22,7 +22,7 @@ function App() {
   let interval = useRef();
 
   const startTimer = () => {
-      const countDownDate = new Date("Dec 24 2023 15:49:23 GMT-0300").getTime();
+      const countDownDate = new Date("Jan 24 2024 21:00:00 GMT-0300").getTime();
 
       interval = setInterval(() => {
       const now = new Date().getTime();
@@ -111,32 +111,32 @@ function App() {
             <div className="container ">
               <div className="row galleria">
               <div className="col galeria-container ">
-                <a  href=""><img src={foto1} alt="" className="fotosGaleria"/></a>
+                <a  href=""><img src={foto1} alt="" loading="lazy" className="fotosGaleria"/></a>
               </div>
               <div className="col galeria-container" >
-                <a href=""><img src={foto2} alt="" className="fotosGaleria"/></a>
+                <a href=""><img src={foto2} alt="" loading="lazy" className="fotosGaleria"/></a>
               </div>
               <div className="col galeria-container">
-                <a href=""><img src={foto3} alt="" className="fotosGaleria"/></a>
+                <a href=""><img src={foto3} alt="" loading="lazy" className="fotosGaleria"/></a>
               </div>
               <div className="col galeria-container">
-                <a href=""><img src={foto4} alt="" className="fotosGaleria"/></a>
+                <a href=""><img src={foto4} alt="" loading="lazy" className="fotosGaleria"/></a>
               </div>
             </div>
           </div>
           <div className="container galeria-container mt-2">
               <div className="row galleria">
               <div className="col galeria-container">
-                <a href=""><img src={foto5} alt="" className="fotosGaleria"/></a>
+                <a href=""><img src={foto5} alt="" loading="lazy"  className="fotosGaleria"/></a>
               </div>
               <div className="col galeria-container" >
-                <a href=""><img src={foto6} alt="" className="fotosGaleria"/></a>
+                <a href=""><img src={foto6} alt="" loading="lazy" className="fotosGaleria"/></a>
               </div>
               <div className="col galeria-container">
-                <a href=""><img src={foto7} alt="" className="fotosGaleria"/></a>
+                <a href=""><img src={foto7} alt="" loading="lazy" className="fotosGaleria"/></a>
               </div>
               <div className="col galeria-container2">
-                <a href=""><img src={foto8} alt="" className="fotosGaleria"/></a>
+                <a href=""><img src={foto8} alt="" loading="lazy" className="fotosGaleria"/></a>
               </div>
             </div>
           </div>
