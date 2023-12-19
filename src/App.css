@@ -54,13 +54,14 @@
 .sobremi{
     text-align: center;
     margin-bottom: 2rem;
+    font-size: 3rem;
 }
 
 .confirmacion{
     text-align: center;
     margin-top: 2rem;
     background-color: aqua;
-    font-family: cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -70,3 +71,31 @@
     border-radius: 10px;
     padding: 0.5rem;
 }
+
+
+
+
+
+@media (max-width: 761px) {
+    .fotosGaleria{
+        width: 150px;
+        height: 1500px;
+        border-radius: 10px;
+    }
+  }
+  
+  @media (max-width: 573px) {
+    .fotosGaleria{
+        width: 150px;
+        height: 1500px;
+        border-radius: 10px;
+    }
+  }
+  
+  @media (max-width: 410px){
+    .fotosGaleria{
+        width: 150px;
+        height: 1500px;
+        border-radius: 10px;
+    }
+  }
