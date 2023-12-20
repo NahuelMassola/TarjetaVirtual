@@ -24,7 +24,6 @@
     width: 100%;
     height: 100%;
     
-
 }
 
 .foto{
@@ -103,6 +102,11 @@
     margin-bottom: 3rem;
 }
 
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 @media (max-width: 761px) {

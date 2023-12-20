@@ -13,6 +13,7 @@ import foto6 from "/6.jpg"
 import foto7 from "/7.jpg"
 import foto8 from "/8.jpg"
 import ReactPlayer from "react-player"
+import videoUrl from "/video.mp4"
 
 function App() {
   const [timerDays , setTimerDays] = useState("00");
@@ -20,7 +21,7 @@ function App() {
   const [timerMinutes , setTimerMinutes] = useState("00");
   const [timerSeconds , setTimerSeconds] = useState("00");
 
-  const videoUrl = "cc"
+  
 
   let interval = useRef();
 
@@ -111,6 +112,8 @@ function App() {
           url={videoUrl}
           playing={true}
           volume={1}
+          controls
+          loop
       />
     </div>
 
