@@ -98,7 +98,7 @@ function App() {
           <p>Salón La Estación Vip, Av. Alem 856 ,  Córdoba.</p>
           <p>Clickeá en el botón de abajo y encontrá las indicaciones para llegar, ¡nos vemos!😉</p> 
         </div>
-        <a href="https://www.google.com/maps/place/La+estacion+vip/@-31.3928006,-64.1655922,3a,75y,20.79h,72.46t/data=!3m6!1e1!3m4!1sFmcQk7G_eECzdwKY4CZyog!2e0!7i16384!8i8192!4m14!1m7!3m6!1s0x9432999dbbb87f31:0x159c2bb1df0992ff!2sLa+estacion+vip!8m2!3d-31.3927973!4d-64.1654974!16s%2Fg%2F11rwrrtv_q!3m5!1s0x9432999dbbb87f31:0x159c2bb1df0992ff!8m2!3d-31.3927973!4d-64.1654974!16s%2Fg%2F11rwrrtv_q?entry=ttu" className="linkBoton mt-5"><button className="boton mb-5"> COMO LLEGAR </button></a>
+        <a href="https://www.google.com/maps/place/La+estacion+vip/@-31.3927927,-64.1680723,17z/data=!3m1!4b1!4m6!3m5!1s0x9432999dbbb87f31:0x159c2bb1df0992ff!8m2!3d-31.3927973!4d-64.1654974!16s%2Fg%2F11rwrrtv_q?entry=ttu" className="linkBoton mt-5"><button className="boton mb-5"> COMO LLEGAR </button></a>
       </div>
 
 
