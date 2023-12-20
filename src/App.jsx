@@ -12,12 +12,15 @@ import foto5 from "/5.jpg"
 import foto6 from "/6.jpg"
 import foto7 from "/7.jpg"
 import foto8 from "/8.jpg"
+import ReactPlayer from "react-player"
 
 function App() {
   const [timerDays , setTimerDays] = useState("00");
   const [timerHours , setTimerHours] = useState("00");
   const [timerMinutes , setTimerMinutes] = useState("00");
   const [timerSeconds , setTimerSeconds] = useState("00");
+
+  const videoUrl = "cc"
 
   let interval = useRef();
 
@@ -64,7 +67,7 @@ function App() {
         </div>
         {/* CONTADOR */}
         <div className="row ">
-          <div className="col-md-12 col-sm-12 text-center contador pt-3"> CUENTA REGRESIVO</div>
+          <div className="col-md-12 col-sm-12 text-center contador pt-3"> FALTAN : </div>
           <div className="col-md-12 col-sm-12 text-center timer-container pt-3 ">
             <section className="section">
               <p>{timerDays}</p>
@@ -97,42 +100,54 @@ function App() {
           <p>Salón Campo Norte, Ruta E53, Córdoba.</p>
           <p>Clickeá en el botón de abajo y encontrá las indicaciones para llegar, ¡nos vemos!😉</p> 
         </div>
+        <a href="https://www.google.com/maps/place/Sal%C3%B3n+Avril/@-31.4853717,-64.1915648,17z/data=!3m1!4b1!4m6!3m5!1s0x9432a37133007e11:0xa1d7bb161e8ec541!8m2!3d-31.4853763!4d-64.1889899!16s%2Fg%2F11c3tjz01j?entry=ttu" className="linkBoton mt-5"><button className="boton mb-5"> COMO LLEGAR </button></a>
       </div>
+
+
+     {/*  video */}
+
+    <div className="video">
+      < ReactPlayer
+          url={videoUrl}
+          playing={true}
+          volume={1}
+      />
+    </div>
 
 
       {/* FOTOS */}
 
       <section className="galeria">
-          <h4 className="sobremi">SOBRE MI</h4>
+          <h4 className="sobremi">AGUNAS FOTITOS MIAS </h4>
             <div className="container ">
               <div className="row galleria">
               <div className="col galeria-container ">
-                <a  href=""><img src={foto1} alt="" loading="lazy" className="fotosGaleria"/></a>
+                <a  href={foto1}  ><img src={foto1} alt="" loading="lazy" className="fotosGaleria"/></a>
               </div>
               <div className="col galeria-container" >
-                <a href=""><img src={foto2} alt="" loading="lazy" className="fotosGaleria"/></a>
+                <a href={foto2}><img src={foto2} alt="" loading="lazy" className="fotosGaleria"/></a>
               </div>
               <div className="col galeria-container">
-                <a href=""><img src={foto3} alt="" loading="lazy" className="fotosGaleria"/></a>
+                <a href={foto3}><img src={foto3} alt="" loading="lazy" className="fotosGaleria"/></a>
               </div>
               <div className="col galeria-container">
-                <a href=""><img src={foto4} alt="" loading="lazy" className="fotosGaleria"/></a>
+                <a href={foto4}><img src={foto4} alt="" loading="lazy" className="fotosGaleria"/></a>
               </div>
             </div>
           </div>
           <div className="container  mt-2">
               <div className="row galleria">
               <div className="col galeria-container">
-                <a href=""><img src={foto5} alt="" loading="lazy"  className="fotosGaleria"/></a>
+                <a href={foto5}><img src={foto5} alt="" loading="lazy"  className="fotosGaleria"/></a>
               </div>
               <div className="col galeria-container" >
-                <a href=""><img src={foto6} alt="" loading="lazy" className="fotosGaleria"/></a>
+                <a href={foto6}><img src={foto6} alt="" loading="lazy" className="fotosGaleria"/></a>
               </div>
               <div className="col galeria-container">
-                <a href=""><img src={foto7} alt="" loading="lazy" className="fotosGaleria"/></a>
+                <a href={foto7}><img src={foto7} alt="" loading="lazy" className="fotosGaleria"/></a>
               </div>
               <div className="col galeria-container2">
-                <a href=""><img src={foto8} alt="" loading="lazy" className="fotosGaleria"/></a>
+                <a href={foto8}><img src={foto8} alt="" loading="lazy" className="fotosGaleria"/></a>
               </div>
             </div>
           </div>
