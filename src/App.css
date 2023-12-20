@@ -78,16 +78,17 @@ body{
 .confirmacion{
     text-align: center;
     padding-top: 2rem;
-    background-image: url("/public//fondoAsistemcia.jpeg");
+    background-image: url("/fondoAsistemcia.jpeg");
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
 .boton {
-    background-image: url("/public//fondoAsistemcia.jpeg");
+    background-image: url("/fondoAsistemcia.jpeg");
     color: black;
     border-radius: 10px;
     padding: 0.5rem;
+    border-radius: 1px solid;
 }
 
 .boton:hover{

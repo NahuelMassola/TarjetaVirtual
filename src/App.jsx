@@ -118,7 +118,7 @@ function App() {
       {/* FOTOS */}
 
       <section className="galeria">
-          <h4 className="sobremi">AGUNAS FOTITOS MIAS </h4>
+          <h4 className="sobremi"></h4>
             <div className="container ">
               <div className="row galleria">
               <div className="col galeria-container ">
