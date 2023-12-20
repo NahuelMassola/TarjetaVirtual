@@ -57,7 +57,7 @@ function App() {
 
   return (
     <>
-      <div className="container-fluid ">
+      <div className="container-fluid">
         <div className="row">
           <div className="col-md-12 col-sm-12 text-center colFoto"> 
           <img src={fotoPrincipal} alt="" className="foto"/>
@@ -93,7 +93,7 @@ function App() {
       <div className="row text-center">
         <div className="col">
           <img src={champan} alt="champan" className="iconoFiesta" />
-          <h2>Fiesta</h2>
+          <h2>FIESTA</h2>
           <p className="mt-3">¡Te invito el Viernes 19 de Enero a las 20:30hs para festejar este gran momento de mi vida!</p>
           <p>Salón La Estación Vip, Av. Alem 856 ,  Córdoba.</p>
           <p>Clickeá en el botón de abajo y encontrá las indicaciones para llegar, ¡nos vemos!😉</p> 

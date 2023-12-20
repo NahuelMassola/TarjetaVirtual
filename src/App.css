@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url("/public/fonfoBody.jpeg");
+    background-image: url("/fonfoBody.jpeg");
     width: 100%;
     height: 100vh;
     background-size: 100%;
@@ -18,14 +18,14 @@ body{
 
 
 .contador{
-    background-image: url("/public//fondoAsistemcia.jpeg");
+    background-image: url("/fondoAsistemcia.jpeg");
     
 }
 
 .timer-container{
     display: flex;
     justify-content: center;
-    background-image: url("/public//fondoAsistemcia.jpeg");
+    background-image: url("/fondoAsistemcia.jpeg");
     width: 100%;
     height: 100%;
     
@@ -88,7 +88,8 @@ body{
     color: black;
     border-radius: 10px;
     padding: 0.5rem;
-    border-radius: 1px solid black;
+    border-radius: 1px solid;
+    border-color: black;
 }
 
 .boton:hover{
@@ -152,9 +153,6 @@ body{
     }
 }
 
-/* .galeria{
-    background-image: url("/public/fondo.jpeg");
-    
-} */
+
 
 
