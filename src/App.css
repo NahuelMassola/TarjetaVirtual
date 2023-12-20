@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url("/public/fondo.jpeg");
+    background-image: url("/public/fonfoBody.jpeg");
     width: 100%;
     height: 100vh;
     background-size: 100%;
@@ -18,14 +18,14 @@ body{
 
 
 .contador{
-    background-color: rgb(255, 255, 255);
+    background-image: url("/public//fondoAsistemcia.jpeg");
     
 }
 
 .timer-container{
     display: flex;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
+    background-image: url("/public//fondoAsistemcia.jpeg");
     width: 100%;
     height: 100%;
     
@@ -78,13 +78,13 @@ body{
 .confirmacion{
     text-align: center;
     padding-top: 2rem;
-    background-color: aqua;
+    background-image: url("/public//fondoAsistemcia.jpeg");
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
 .boton {
-    background-color: red;
+    background-image: url("/public//fondoAsistemcia.jpeg");
     color: black;
     border-radius: 10px;
     padding: 0.5rem;
@@ -151,8 +151,9 @@ body{
     }
 }
 
-.galeria{
-    background-color: rgb(109, 109, 202);
-}
+/* .galeria{
+    background-image: url("/public/fondo.jpeg");
+    
+} */
 
 

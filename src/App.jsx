@@ -1,5 +1,5 @@
 
-import fotoPrincipal from "/principall.jpeg"
+import fotoPrincipal from "/principal.jpeg"
 import './App.css'
 import { useState , useEffect } from "react"
 import { useRef } from "react"
