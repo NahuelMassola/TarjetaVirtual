@@ -151,7 +151,7 @@ function App() {
           <p>¡Esperamos que seas parte de esta gran celebracion! </p>
           <p>Confirmanos tu asistenciaantes del 12/01/2024</p>
   
-          <a href="https://web.whatsapp.com/send?phone=5493516411029&text=Hola!%20Me%20gustaria%20Reservar%20la%20Tarjeta%20para%20los%2015%20de%20Diamela.%20Mi%20nombre%20es:" className="linkBoton mt-5"><button className="boton mb-5"> CONFIRMAR ASISTENCIA </button></a>
+          <a href="https://w.app/8w5iRW" className="linkBoton mt-5"><button className="boton mb-5"> CONFIRMAR ASISTENCIA </button></a>
           </div>
       </section>
 
