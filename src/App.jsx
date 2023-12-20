@@ -1,6 +1,5 @@
-/* 
-import foto from "/foto.png" */
-import fotoPrincipal from "/principa.jpeg"
+
+import fotoPrincipal from "/principall.jpeg"
 import './App.css'
 import { useState , useEffect } from "react"
 import { useRef } from "react"
@@ -9,10 +8,6 @@ import foto1 from "/1.jpg"
 import foto2 from "/2.jpg"
 import foto3 from "/3.jpg"
 import foto4 from "/4.jpg"
-/* import foto5 from "/5.jpg"
-import foto6 from "/6.jpg"
-import foto7 from "/7.jpg"
-import foto8 from "/8.jpg" */
 import ReactPlayer from "react-player"
 import videoUrl from "/video.mp4"
 
@@ -99,7 +94,7 @@ function App() {
         <div className="col">
           <img src={champan} alt="champan" className="iconoFiesta" />
           <h2>Fiesta</h2>
-          <p className="mt-3">¡Te espero el Viernes 19 de Enero de 20:30 a 05:00 hs para festejar este gran momento de mi vida!</p>
+          <p className="mt-3">¡Te invito el Viernes 19 de Enero a las 20:30hs para festejar este gran momento de mi vida!</p>
           <p>Salón La Estación Vip, Av. Alem 856 ,  Córdoba.</p>
           <p>Clickeá en el botón de abajo y encontrá las indicaciones para llegar, ¡nos vemos!😉</p> 
         </div>
@@ -140,22 +135,7 @@ function App() {
               </div>
             </div>
           </div>
-          {/* <div className="container  mt-2">
-              <div className="row galleria">
-              <div className="col galeria-container">
-                <a href={foto5}><img src={foto5} alt="" loading="lazy"  className="fotosGaleria"/></a>
-              </div>
-              <div className="col galeria-container" >
-                <a href={foto6}><img src={foto6} alt="" loading="lazy" className="fotosGaleria"/></a>
-              </div>
-              <div className="col galeria-container">
-                <a href={foto7}><img src={foto7} alt="" loading="lazy" className="fotosGaleria"/></a>
-              </div>
-              <div className="col galeria-container2">
-                <a href={foto8}><img src={foto8} alt="" loading="lazy" className="fotosGaleria"/></a>
-              </div>
-            </div>
-          </div> */}
+          
       </section>
 
 
@@ -164,11 +144,9 @@ function App() {
       <section>
         <div className="confirmacion mb-5">
           <h1>CONFIRMACION DE ASISTENCIA</h1>
-          <p>Valor Tarjeta</p>
-          <p>Adultos : $9500 </p>
-          <p>Niños (3 a 10 años) : $2500 </p>
-
-          <p>¡Esperamos que seas parte de esta gran celebracion! </p>
+          <p>¡ Esperamos que seas parte de esta gran celebracion ! </p>
+          <p>Hay Momentos inolvidables que se atesoran en el corazon</p>
+          <p>Por ello deseo que compartas conmigo este dia tan especial!</p>
           <p>Confirmanos tu asistencia antes del 31/12/2023</p>
   
           <a href="https://w.app/8w5iRW" className="linkBoton mt-5"><button className="boton mb-5"> CONFIRMAR ASISTENCIA </button></a>

@@ -4,7 +4,12 @@
     box-sizing: border-box;
 }
 
-
+body{
+    background-image: url("/public/fondo.jpeg");
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+}
 .colFoto{
     margin: 0;
     padding: 0;
@@ -13,14 +18,14 @@
 
 
 .contador{
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     
 }
 
 .timer-container{
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 100%;
     
@@ -28,7 +33,7 @@
 
 .foto{
     width: 100vw;
-    height: 100vw;
+    
 }
 
 .reloj {
@@ -85,6 +90,11 @@
     padding: 0.5rem;
 }
 
+.boton:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+
 
 .galeria-container{
     display: flex;
@@ -108,7 +118,7 @@
     align-items: center;
     padding-bottom:  1.5rem;
     padding-top: 1.5rem;
-    background-image: url("/public/fondo.jpeg");
+    
 }
 
 
