@@ -144,9 +144,9 @@ function App() {
       <section>
         <div className="confirmacion mb-5">
           <h1>CONFIRMACION DE ASISTENCIA</h1>
-          <p>¡ Esperamos que seas parte de esta gran celebracion ! </p>
-          <p>Hay Momentos inolvidables que se atesoran en el corazon</p>
-          <p>Por ello deseo que compartas conmigo este dia tan especial!</p>
+          <p>¡ Esperamos que seas parte de esta gran celebración ! </p>
+          <p>Hay Momentos inolvidables que se atesoran en el corazón</p>
+          <p>Por ello deseo que compartas conmigo este día tan especial!</p>
           <p>Confirmanos tu asistencia antes del 31/12/2023</p>
   
           <a href="https://w.app/8w5iRW" className="linkBoton mt-5"><button className="boton mb-5"> CONFIRMAR ASISTENCIA </button></a>
