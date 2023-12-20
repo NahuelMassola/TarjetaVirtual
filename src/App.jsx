@@ -1,5 +1,6 @@
-
-import foto from "/foto.png"
+/* 
+import foto from "/foto.png" */
+import fotoPrincipal from "/principall.jpeg"
 import './App.css'
 import { useState , useEffect } from "react"
 import { useRef } from "react"
@@ -8,12 +9,13 @@ import foto1 from "/1.jpg"
 import foto2 from "/2.jpg"
 import foto3 from "/3.jpg"
 import foto4 from "/4.jpg"
-import foto5 from "/5.jpg"
+/* import foto5 from "/5.jpg"
 import foto6 from "/6.jpg"
 import foto7 from "/7.jpg"
-import foto8 from "/8.jpg"
+import foto8 from "/8.jpg" */
 import ReactPlayer from "react-player"
 import videoUrl from "/video.mp4"
+
 
 function App() {
   const [timerDays , setTimerDays] = useState("00");
@@ -63,7 +65,7 @@ function App() {
       <div className="container-fluid ">
         <div className="row">
           <div className="col-md-12 col-sm-12 text-center colFoto"> 
-          <img src={foto} alt="" className="foto"/>
+          <img src={fotoPrincipal} alt="" className="foto"/>
           </div>
         </div>
         {/* CONTADOR */}
@@ -138,7 +140,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="container  mt-2">
+          {/* <div className="container  mt-2">
               <div className="row galleria">
               <div className="col galeria-container">
                 <a href={foto5}><img src={foto5} alt="" loading="lazy"  className="fotosGaleria"/></a>
@@ -153,7 +155,7 @@ function App() {
                 <a href={foto8}><img src={foto8} alt="" loading="lazy" className="fotosGaleria"/></a>
               </div>
             </div>
-          </div>
+          </div> */}
       </section>
 
 
