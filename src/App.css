@@ -28,6 +28,7 @@
 
 .foto{
     width: 100vw;
+    height: 100vw;
 }
 
 .reloj {
@@ -49,6 +50,12 @@
     width: 300px;
     height: 300px;
     border-radius: 15px;
+}
+
+.fotosGaleria:hover{
+    opacity: 0.8;
+    scale: 1.1;
+    transition: 1s;
 }
 
 .sobremi{
@@ -111,16 +118,15 @@
     }
   }
   
-  @media (max-width: 410px){
+  @media (min-width: 447px){
     .fotosGaleria{
         max-width: 200px;
         max-height: 200px;
         border-radius: 15px;
         align-items: center;
     }
-  }
+}
 
-  .galeria{
+.galeria{
     background-color: rgb(109, 109, 202);
-   
-  }
+}

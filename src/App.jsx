@@ -90,16 +90,12 @@ function App() {
       </div>
       {/* LUGAR DE LA FIESTA */}
       <div className="row text-center">
-        <div className="col-sm-6">
+        <div className="col">
           <img src={champan} alt="champan" className="iconoFiesta" />
           <h2>Fiesta</h2>
-          <p className="mt-3">Te esperamos el 19 de Enero a las 21hs</p> 
-          <p>Lugar Salon Abril 
-          </p>
-        </div>
-        
-        <div className="col-sm-6">
-          <img src="" alt="" />
+          <p className="mt-3">¡Te espero el Sábado 10 de febrero de 21:00 a 05:00 hs para festejar este gran momento de mi vida!</p>
+          <p>Salón Campo Norte, Ruta E53, Córdoba.</p>
+          <p>Clickeá en el botón de abajo y encontrá las indicaciones para llegar, ¡nos vemos!😉</p> 
         </div>
       </div>
 
@@ -124,7 +120,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="container galeria-container mt-2">
+          <div className="container  mt-2">
               <div className="row galleria">
               <div className="col galeria-container">
                 <a href=""><img src={foto5} alt="" loading="lazy"  className="fotosGaleria"/></a>
@@ -154,10 +150,9 @@ function App() {
 
           <p>¡Esperamos que seas parte de esta gran celebracion! </p>
           <p>Confirmanos tu asistenciaantes del 12/01/2024</p>
-          
-          <a href="" className="linkBoton mt-5"><button className="boton mb-5"> CONFIRMAR ASISTENCIA </button></a>
+  
+          <a href="https://web.whatsapp.com/send?phone=5493516411029&text=Hola!%20Me%20gustaria%20Reservar%20la%20Tarjeta%20para%20los%2015%20de%20Diamela.%20Mi%20nombre%20es:" className="linkBoton mt-5"><button className="boton mb-5"> CONFIRMAR ASISTENCIA </button></a>
           </div>
-          
       </section>
 
 
