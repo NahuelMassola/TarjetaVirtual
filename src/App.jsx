@@ -23,7 +23,7 @@ function App() {
   let interval = useRef();
 
   const startTimer = () => {
-      const countDownDate = new Date("Jan 24 2024 21:00:00 GMT-0300").getTime();
+      const countDownDate = new Date("Jan 19 2024 20:30:00 GMT-0300").getTime();
 
       interval = setInterval(() => {
       const now = new Date().getTime();
