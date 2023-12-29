@@ -149,11 +149,11 @@ function App() {
           <p>Por ello deseo que compartas conmigo este día tan especial!</p>
           <p>Confirmanos tu asistencia antes del 31/12/2023</p>
   
-          <a href="https://w.app/8w5iRW" className="linkBoton mt-5"><button className="boton mb-5"> CONFIRMAR ASISTENCIA </button></a>
+          <a href="http://wa.me/3516411029" className="linkBoton mt-5"><button className="boton mb-5"> CONFIRMAR ASISTENCIA </button></a>
           </div>
       </section>
 
-
+      {/* https://w.app/8w5iRW */}
 
     </>
   )
